@@ -12,7 +12,16 @@
 
 
     <style>
-
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+      
+      #dz {font-family: 'Roboto', sans-serif; font-size:110%; text-align: justify;}
+      #zmf {font-family: 'Merienda One', cursive;text-align: justify}
+      
+      #codice {border:4px solid red; border-radius: 0.5rem; color:red; text-align: center; margin-left:0rem; margin-right:0rem; text-decoration: bold; letter-spacing: 0.5em; 
+      font-size:95%; background-color:white;}
+      
+      
       .btn.focus, .btn:focus {box-shadow: 0 0 0 0.2rem white}
       .btn-warning:not(:disabled):not(.disabled).active:focus, 
       .btn-warning:not(:disabled):not(.disabled):active:focus, 
@@ -28,12 +37,24 @@
         <body>
       
           <div class="alert alert-warning m-2 mb-4 p-3" role="alert">
-              <div class="d-flex justify-content-center">
-          <p>IHIHIHIHIHIHIHIH BRAVIN* CE L'HAI FATTA IHIHIHHIHIHIHIHIHIHIHIHIH</p>
-          </div>
-
-          <p>SCOSOLAFASUI2</p>
+              <audio controls style="width:100%; margin-bottom:2rem">
+                <source src="audio_p/audio_anni_70.ogg" type="audio/ogg">
+              Your browser does not support the audio element.
+                </audio>
+                <div>
+                  <p id="zmf"><b>Marty</b>:	Finalmente siamo ritornati nelle nostre amate montagne socchievine! Ma perché le caprette ci fanno ciao e i monti ci sorridono? </p>
+                  <p id="dz"><b>Doc</b>:	Ma non lo hai ancora capito? Non vedi la baita del nonno di Heidi e il cane Nebbia che corre felice sui monti?</p>
+                  <p id="zmf"><b>Marty</b>:	Ma che bello: mi sembra di essere proprio a casa mia! Quindi siamo arrivati nei meravigliosi anni ’70?</p>
+                  <p id="dz"><b>Doc</b>:	Esattamente! </p>
+                  <p id="zmf"><b>Marty</b>:	Posso correre dietro alle caprette pure io con Heidi?</p>
+                  <p id="dz"><b>Doc</b>:	No, non puoi! Dobbiamo metterci a lavorare per la Grancaccia, quando abbiamo finito se vuoi potrai ritornare qua e correre felice sui monti!</p>
+                  
+            </div>
       
+          <div class="mt-4">
+            <p> Ecco il tuo codice, conservalo per accedere alla prossima busta!</p>
+            <p id="codice">SCOSOLAFASUI2</p>
+          </div>
       
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       
@@ -43,7 +64,7 @@
                       <div class="card card-block mx-auto">
                         <div class="row">
                           <div class="col-10 pr-0 mr-0">
-                          <a href="pdf/Tracciato_1.pdf" download="Tracciato_1">
+                          <a href="tracciati/tracciato_piccoli_3.pdf" download="tracciato_piccoli_3">
                             <button type="button" class="btn btn-warning button2 w-100 mr-0 pr-0" style="background-color: whitesmoke; color:black; border-color:whitesmoke">
                               <i class="fa fa-download mr-2"></i>
                               <b>Busta Bianca</b>
@@ -65,7 +86,7 @@
                       <div class="card card-block mx-auto">
                         <div class="row">
                           <div class="col-10 pr-0 mr-0">
-                        <a href="pdf/Tracciato_1.pdf" download="BustaGialla_1">
+                        <a href="buste_gialle/busta_gialla_piccoli_3.pdf" download="busta_gialla_piccoli_3">
                           <button type="button" class="btn btn-warning w-100" style="background-color: yellow; color:black; border-color:yellow">
                             <i class="fa fa-download mr-2"></i>
                             <b>Busta Gialla</b>
